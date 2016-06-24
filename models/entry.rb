@@ -7,4 +7,4 @@ class Entry
       @email = email
    end
 
- 
+end
