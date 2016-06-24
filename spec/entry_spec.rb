@@ -34,4 +34,3 @@ RSpec.describe Entry do
        expect(entry.email).to eq('augusta.king@lovelace.com')
      end
   end
-end
