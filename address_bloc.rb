@@ -1,6 +1,6 @@
-require_relative 'controllers/menu_controller'
+require_relative 'controllers/menu_controller.rb'
 
-menu = MenuController
+menu = MenuController.new
 
 system "clear"
 puts "Welcome to AddressBloc!"
