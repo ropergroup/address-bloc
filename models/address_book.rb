@@ -1,5 +1,5 @@
 
-require_relative '../models/entry.rb'
+require_relative 'entry'
 
  class AddressBook
    attr_reader :entries
@@ -7,7 +7,7 @@ require_relative '../models/entry.rb'
    def initialize
      @entries = []
    end
- end
+
 
  def add_entry(name, phone_number, email)
      # #9
@@ -22,3 +22,4 @@ require_relative '../models/entry.rb'
      # #11
      entries.insert(index, Entry.new(name, phone_number, email))
    end
+end
