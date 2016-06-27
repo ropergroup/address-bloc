@@ -22,7 +22,7 @@ RSpec.describe AddressBook do
 
   describe "#delete_entry" do
     it "removes an entry using the name, phone_number, and email" do
-      book.add_entry("Michael Faraday", "010.210.5181", "michael.faraday@faraday.com")
+      book.delete_entry("Michael Faraday", "010.210.5181", "michael.faraday@faraday.com")
 
       name = "Ada Lovelace"
       phone_number = "010.012.1815"
