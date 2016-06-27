@@ -1,5 +1,6 @@
 
 require_relative 'entry'
+require "csv"
 
  class AddressBook
    attr_reader :entries
@@ -32,5 +33,8 @@ end
      end
      # #11
      entries.insert(index, Entry.new(name, phone_number, email))
+   end
+
+   def import_from_csv(file_name)
    end
 end
