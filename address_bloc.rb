@@ -1,4 +1,4 @@
-require_relative 'controllers/menu_controller.rb'
+require_relative 'controllers/menu_controller'
 
 menu = MenuController.new
 
